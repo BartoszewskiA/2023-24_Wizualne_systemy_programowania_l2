@@ -1,0 +1,10 @@
+D:\PROGRAMOWANIE\2023-24\2023-24_Wizualne_systemy_programowania_l2\lab05p01-przelicznik\lab05p01-przelicznik\bin\Debug\lab05p01-przelicznik.exe.config
+D:\PROGRAMOWANIE\2023-24\2023-24_Wizualne_systemy_programowania_l2\lab05p01-przelicznik\lab05p01-przelicznik\bin\Debug\lab05p01-przelicznik.exe
+D:\PROGRAMOWANIE\2023-24\2023-24_Wizualne_systemy_programowania_l2\lab05p01-przelicznik\lab05p01-przelicznik\bin\Debug\lab05p01-przelicznik.pdb
+D:\PROGRAMOWANIE\2023-24\2023-24_Wizualne_systemy_programowania_l2\lab05p01-przelicznik\lab05p01-przelicznik\obj\Debug\lab05p01-przelicznik.csproj.AssemblyReference.cache
+D:\PROGRAMOWANIE\2023-24\2023-24_Wizualne_systemy_programowania_l2\lab05p01-przelicznik\lab05p01-przelicznik\obj\Debug\lab05p01_przelicznik.Form1.resources
+D:\PROGRAMOWANIE\2023-24\2023-24_Wizualne_systemy_programowania_l2\lab05p01-przelicznik\lab05p01-przelicznik\obj\Debug\lab05p01_przelicznik.Properties.Resources.resources
+D:\PROGRAMOWANIE\2023-24\2023-24_Wizualne_systemy_programowania_l2\lab05p01-przelicznik\lab05p01-przelicznik\obj\Debug\lab05p01-przelicznik.csproj.GenerateResource.cache
+D:\PROGRAMOWANIE\2023-24\2023-24_Wizualne_systemy_programowania_l2\lab05p01-przelicznik\lab05p01-przelicznik\obj\Debug\lab05p01-przelicznik.csproj.CoreCompileInputs.cache
+D:\PROGRAMOWANIE\2023-24\2023-24_Wizualne_systemy_programowania_l2\lab05p01-przelicznik\lab05p01-przelicznik\obj\Debug\lab05p01-przelicznik.exe
+D:\PROGRAMOWANIE\2023-24\2023-24_Wizualne_systemy_programowania_l2\lab05p01-przelicznik\lab05p01-przelicznik\obj\Debug\lab05p01-przelicznik.pdb

@@ -1,0 +1,125 @@
+﻿<Window x:Class="lab08p01.OknoDialogowe"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab08p01"
+        mc:Ignorable="d"
+        Title="OknoDialogowe" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock
+            Text="Dodaj produkt"
+            Background="Cornsilk"
+            Grid.Column="1"
+            Grid.Row="1"
+            Grid.ColumnSpan="10"
+            Grid.RowSpan="2"
+            TextAlignment="Center"
+            VerticalAlignment="Center"
+            FontSize="20pt"
+            Padding="0 10 0 10"
+            />
+
+        <TextBlock
+            Text="Nazwa:"
+            Background="Cornsilk"
+            Grid.Column="1"
+            Grid.Row="4"
+            Grid.ColumnSpan="3"
+            Grid.RowSpan="2"
+            TextAlignment="Center"
+            VerticalAlignment="Center"
+            FontSize="20pt"
+            Padding="0 10 0 10"
+            />
+
+        <TextBlock
+            Text="Sztuk:"
+            Background="Cornsilk"
+            Grid.Column="1"
+            Grid.Row="6"
+            Grid.ColumnSpan="3"
+            Grid.RowSpan="2"
+            TextAlignment="Center"
+            VerticalAlignment="Center"
+            FontSize="20pt"
+            Padding="0 10 0 10"
+            />
+        <TextBox
+            x:Name="textBox_nazwa"
+            Grid.Column="5"
+            Grid.Row="4"
+            Grid.ColumnSpan="6"
+            Grid.RowSpan="2"
+            TextAlignment="Center"
+            VerticalAlignment="Center"
+            FontSize="20pt"
+            Padding="0 10 0 10"/>
+        <TextBox
+            x:Name="textBox_sztuk"
+            Grid.Column="5"
+            Grid.Row="6"
+            Grid.ColumnSpan="2"
+            Grid.RowSpan="2"
+            TextAlignment="Center"
+            VerticalAlignment="Center"
+            FontSize="20pt"
+            Padding="0 10 0 10"
+            />
+
+        <Button 
+            x:Name="button_ok"
+            Content="Dodaj"
+            Grid.Column="1"
+            Grid.Row="9"
+            Grid.ColumnSpan="4"
+            Grid.RowSpan="2"
+            VerticalAlignment="Center"
+            FontSize="20pt"
+            Padding="0 10 0 10"
+            IsDefault="True" Click="button_ok_Click"
+            />
+
+        <Button 
+            x:Name="button_cancel"
+            Content="Anuluj"
+            Grid.Column="7"
+            Grid.Row="9"
+            Grid.ColumnSpan="4"
+            Grid.RowSpan="2"
+            VerticalAlignment="Center"
+            FontSize="20pt"
+            Padding="0 10 0 10"
+            IsCancel="True"
+            />
+
+    </Grid>
+</Window>

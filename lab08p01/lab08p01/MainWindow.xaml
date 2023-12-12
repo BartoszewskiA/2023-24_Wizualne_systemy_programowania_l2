@@ -7,29 +7,59 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="5*"/>
-            <ColumnDefinition Width="*"/>
-        </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
             <RowDefinition Height="4*"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
         </Grid.RowDefinitions>
         <TextBlock 
             x:Name="tb_lista"
-            Grid.Column="0"
             Grid.Row="1"
             Grid.ColumnSpan="2"
             Padding="20"
             Background="Cornsilk"
             TextWrapping="Wrap"          
              />
-        <Button
-            Grid.Column="1"
-            Grid.Row="2"
-            Content="+"
-            FontSize="20pt"
-            Margin="10" Click="Button_Click"/>
+
+        <WrapPanel
+            Grid.Row="2">
+            <Button
+                    Grid.Row="2"
+                    Content="Wczytaj"
+                    FontSize="20pt"
+                    Height="40pt"
+                    Width="100pt"
+                    Margin="10" 
+                    />
+            <Button
+                    Grid.Row="2"
+                    Content="Zapisz"
+                    FontSize="20pt"
+                    Height="40pt"
+                    Width="100pt"
+                    Margin="10" Click="Button_Click_1" 
+                    />
+            <Button
+                    Grid.Row="2"
+                    Content="+"
+                    FontSize="20pt"
+                    Height="40pt"
+                    Width="100pt"
+                    Margin="10" 
+                    Click="Button_Click"/>
+        <ComboBox 
+            x:Name="combo"
+            Width="120"
+            Margin="10"/>
+            <Button
+                  Grid.Row="2"
+                  Content="Usuń"
+                  FontSize="20pt"
+                  Height="40pt"
+                  Width="100pt"
+                  Margin="10" Click="Button_Click_2" 
+                  />
+        </WrapPanel>
+
     </Grid>
 </Window>

@@ -65,7 +65,7 @@ namespace lab09p01
 
         private void MenuItem_Click_1(object sender, RoutedEventArgs e)
         {
-            File.CreateText(path);
+            File.WriteAllText(path, "");
         }
 
         private void MenuItem_Click_2(object sender, RoutedEventArgs e)
